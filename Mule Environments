@@ -1,0 +1,16 @@
+
+
+Anypoint Platform supports the following types of environments:
+===================================================================
+
+Production environments: provides a production environment where you can deploy applications and APIs publicly. When you create a
+new Anypoint Platform account, by default it contains one production environment.
+
+Sandbox environment: provide useful environments for development and testing. By default, Anypoint Platform accounts are created with 
+one sandbox environment with one vCore assigned to it.
+
+Sandbox environments enable you to safely test an application without affecting the production environment. For example, you can create 
+a sandbox environment for a QA team where they can test new releases of applications before deploying in production. You can add users to a sandbox environment without permitting them to access the production environment. This helps to secure your production environment and eliminate the risk of a developer accidentally changing an application in production. After you are sure an application is safe to expose to users, you can easily promote the application from a sandbox environment to a production environment.
+
+Design environment: enables you to test and run applications at design time. This environment is used by the Design Center application. 
+By default, a new Anypoint Platform account contains one design environment with one vCore assigned to it.
